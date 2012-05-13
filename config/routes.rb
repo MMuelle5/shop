@@ -1,7 +1,7 @@
 Shop::Application.routes.draw do
   resources :line_items
 
-  resources :cards
+  resources :carts
 
   get "store/index"
 

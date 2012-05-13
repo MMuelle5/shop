@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class cartsControllerTest < ActionController::TestCase
+class CartsControllerTest < ActionController::TestCase
   setup do
     @cart = carts(:one)
   end
@@ -17,7 +17,7 @@ class cartsControllerTest < ActionController::TestCase
   end
 
   test "should create cart" do
-    assert_difference('cart.count') do
+    assert_difference('Cart.count') do
       post :create, cart: @cart.attributes
     end
 
@@ -40,7 +40,7 @@ class cartsControllerTest < ActionController::TestCase
   end
 
   test "should destroy cart" do
-    assert_difference('cart.count', -1) do
+    assert_difference('Cart.count', -1) do
       delete :destroy, id: @cart
     end
 
