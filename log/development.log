@@ -19200,3 +19200,455 @@ Served asset /products.js - 304 Not Modified (0ms)
 
 Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:47:36 +0200
 Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:52:10 +0200
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:52:11 +0200
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (1.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (7.0ms)
+Compiled carts.css  (24ms)  (pid 6004)
+Compiled application.css  (6ms)  (pid 6004)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /carts.css - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:32 +0200
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:34 +0200
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (1.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (4.0ms)
+Compiled carts.css  (4ms)  (pid 6004)
+Compiled application.css  (5ms)  (pid 6004)
+Completed 200 OK in 74ms (Views: 72.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /line_items.css - 200 OK (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /carts.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /store.css - 200 OK (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /carts.js - 200 OK (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /line_items.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:47 +0200
+Served asset /store.js - 200 OK (0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (7.0ms)
+Compiled carts.css  (5ms)  (pid 6004)
+Compiled application.css  (7ms)  (pid 6004)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /carts.css - 200 OK (4ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /line_items.css - 200 OK (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /store.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /carts.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /line_items.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:53:54 +0200
+Served asset /store.js - 200 OK (0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (7.0ms)
+Compiled carts.css  (4ms)  (pid 6004)
+Compiled application.css  (6ms)  (pid 6004)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /carts.css - 200 OK (6ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /line_items.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /store.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /carts.js - 200 OK (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /line_items.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:02 +0200
+Served asset /store.js - 200 OK (0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (7.0ms)
+Compiled carts.css  (5ms)  (pid 6004)
+Compiled application.css  (5ms)  (pid 6004)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /carts.css - 200 OK (27ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /line_items.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /store.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /carts.js - 200 OK (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /line_items.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:14 +0200
+Served asset /store.js - 200 OK (0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mLineItem Load (1.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (7.0ms)
+Compiled carts.css  (4ms)  (pid 6004)
+Compiled application.css  (7ms)  (pid 6004)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /carts.css - 200 OK (5ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /line_items.css - 200 OK (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /store.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /carts.js - 200 OK (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /line_items.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-05-29 10:54:40 +0200
+Served asset /store.js - 200 OK (0ms)
